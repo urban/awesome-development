@@ -1,19 +1,19 @@
 # Awesome Development
 
-> A curated list of [packages](#pakcages) and [resources](#resources) I have used in front-end and back-end development.
+> A curated list of [packages](#pakcages) and [resources](#resources) that I find useful for development.
 
-Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing by [Sindre Sorhus](http://sindresorhus.com).
+Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing by [Sindre Sorhus](http://sindresorhus.com) and [Essential JavaScript Links](https://github.com/ericelliott/essential-javascript-links) by [Eric Elliott](https://github.com/ericelliott).
 
 
 ## Packages
 
+- [Package managers](#package-managers)
+- [Build tools](#build-tools)
 - [Command-line apps](#command-line-apps)
 - [Functional programming](#functional-programming)
 - [HTTP](#http)
 - [Web frameworks](#web-frameworks)
 - [Command-line utilities](#command-line-utilities)
-- [Package managers](#package-managers)
-- [Build tools](#build-tools)
 - [Hardware](#hardware)
 - [Templating](#templating)
 - [Documentation](#documentation)
@@ -48,6 +48,38 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing by
 - [Miscellaneous](#miscellaneous)
 
 
+### Package managers
+
+- [Bower](http://bower.io) - A package manager for the web.
+- [npm](https://github.com/npm/npm/) - A package manager for Node.js and the web.
+
+
+### Build tools
+
+- [babel]()
+    + [babel-core]()
+- [browserify](https://github.com/substack/node-browserify) - Browser-side require() the Node.js way.
+- [gulp.js](http://gulpjs.com) - Streaming and fast build system that favors code over config.
+    + [gulp-changed]()
+    + [gulp-concat]()
+    + [gulp-concat]()
+    + [gulp-data]()
+    + [gulp-if]()
+    + [gulp-load-plugins]()
+    + [gulp-rename]()
+    + [gulp-sourcemaps]()
+    + [gulp-util]()
+- [PostCSS](https://github.com/postcss/postcss) - Framework for CSS postprocessors, to modify CSS.
+    + [autoprefixer-core]()
+    + [csswring]()
+- [webpack](https://github.com/webpack/webpack) - Packs CommonJS/AMD modules for the browser.
+    + [babel-loader]()
+    + [extract-text-webpack-plugin]()
+    + [postcss-loader]()
+    + [sass-loader]()
+    + [url-loader]()
+
+
 ### Command-line apps
 
 - [http-server](https://github.com/nodeapps/http-server) - Simple, zero-config command-line HTTP server.
@@ -70,7 +102,6 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing by
 ### Web frameworks
 
 - [Koa](http://koajs.com) - A new web framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs.
-- [Express](http://expressjs.com) - A minimal and flexible web application framework, providing a robust set of features for building single and multi-page, and hybrid web applications.
 - [Restify](http://mcavage.me/node-restify/) - A node framework built specifically to enable you to build correct REST web services.
 
 
@@ -80,25 +111,12 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing by
 - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - Interactive command-line prompt.
 
 
-### Package managers
-
-- [Bower](http://bower.io) - A package manager for the web.
-- [npm](https://github.com/npm/npm/) - A package manager for Node.js and the web.
-
-
-### Build tools
-
-- [gulp.js](http://gulpjs.com) - Streaming and fast build system that favors code over config.
-- [browserify](https://github.com/substack/node-browserify) - Browser-side require() the Node.js way.
-- [webpack](https://github.com/webpack/webpack) - Packs CommonJS/AMD modules for the browser.
-
-
 ### Hardware
 
 - [johnny-five](https://github.com/rwaldron/johnny-five) - Firmata based Arduino Framework.
 - [serialport](https://github.com/voodootikigod/node-serialport) - Access serial ports for reading and writing.
 - [cylon.js](http://cylonjs.com/) - Next generation robotics framework with support for 26 different platforms.
-
+- [onoff](https://github.com/fivdi/onoff) GPIO access and interrupt detection with Node.js.
 
 ### Templating
 
@@ -118,6 +136,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing by
 - [rimraf](https://github.com/isaacs/rimraf) - Recursively delete files like `rm -rf`.
 - [mkdirp](https://github.com/substack/node-mkdirp) - Recursively create directories like `mkdir -p`.
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) - Extra methods for the `fs` module.
+- [look-up](https://github.com/jonschlinkert/look-up) - Find the first file matching a given pattern in the current directory or the nearest ancestor directory.
 
 
 ### Control flow
@@ -174,7 +193,6 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing by
 
 - [marked](https://github.com/chjj/marked) - A markdown parser and compiler built for speed.
 - [csv-parser](https://github.com/mafintosh/csv-parser) - Streaming CSV parser that aims to be faster than everyone else.
-- [PostCSS](https://github.com/postcss/postcss) - Framework for CSS postprocessors, to modify CSS.
 
 
 ### Humanize
@@ -257,6 +275,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing by
     - [object-assign](https://github.com/sindresorhus/object-assign) - ES6 `Object.assign()` ponyfill.
     - [es6-shim](https://github.com/paulmillr/es6-shim) - Collection of ES6 polyfills.
     - More ES6 polyfills at [es6-tools](https://github.com/addyosmani/es6-tools#polyfills).
+    - [fastclick](https://github.com/ftlabs/fastclick) - Removes click delays on browsers with touch UIs.
 
 
 ### Natural language processing
@@ -288,4 +307,4 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing by
 
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [Urban Faubion](http://sindresorhus.com) has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, [Urban Faubion](http://urbanfaubion.com) has waived all copyright and related or neighboring rights to this work.
